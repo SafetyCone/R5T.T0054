@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Newport\source\R5T.Newport.Extensions\R5T.Newport.Extensions.csproj" />
+    <ProjectReference Include="..\R5T.T0054\R5T.T0054.csproj" />
+  </ItemGroup>
+
+</Project>
