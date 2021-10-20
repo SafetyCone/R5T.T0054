@@ -100,14 +100,14 @@ namespace System
             {
                 var name = Instances.EntryOperator.GetName(entry);
 
-                // Is the project name ignored?
+                // Is the name ignored?
                 if (ignoredNames.Contains(name))
                 {
                     // Ignore the entry for the name.
                     continue;
                 }
 
-                // Are the duplicate entries with the same name?
+                // Are there duplicate entries with the same name?
                 if (duplicateNameEntrySelections.ContainsKey(name))
                 {
                     if (!duplicateNamesHandled.Contains(name))
