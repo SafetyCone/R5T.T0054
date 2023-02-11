@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
+using R5T.Magyar;
 using R5T.Newport;
 
 using R5T.T0054;
